@@ -1,0 +1,83 @@
+/* style.css */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f7fb;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+.container {
+  width: 880px;
+  margin: 36px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(30,30,30,0.06);
+}
+
+h1 {
+  margin: 0 0 4px;
+  color: #0b3d91;
+}
+
+.subtitle {
+  margin-top: 0;
+  color: #555;
+}
+
+.input-area label {
+  display: block;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+textarea {
+  width: 100%;
+  min-height: 100px;
+  resize: vertical;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px 20px;
+  background: #0b63d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover { opacity: 0.95; }
+
+.output {
+  margin-top: 18px;
+  padding: 12px;
+  border-radius: 6px;
+  background: #fbfcff;
+  border: 1px solid #eef3ff;
+}
+
+.output h3 { margin: 0 0 8px; }
+
+.result-row { margin-bottom: 6px; }
+.label-chip {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.label-genuine { background: #28a745; }
+.label-possible { background: #ffb703; color: #1f1f1f;}
+.label-high { background: #d90429; }
+
+footer { margin-top: 12px; text-align: center; color: #888; }
